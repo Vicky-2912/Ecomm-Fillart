@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userinfo</title>
+    <style>
+        body{
+      font-family: 'Courier New', Courier, monospace;
+    }
+    header{
+            text-align:center;
+            font-size: 60px;
+          
+            overflow: hidden;
+            background-color: white;
+            border-bottom: 2px solid black;
+            border-radius: 30%;
+            border-top-right-radius: 0px;
+            
+         }
+         .logo{
+            float: right;
+            height: 70px;
+            padding: 0px 20px 20px 0px;
+            border-radius: 70%;}
+            *{
+        padding: 10px;
+        margin: 5px solid whitesmoke;
+      }
+      body{
+        padding: 7px;
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        margin: 5px solid black;
+      }
+     
+      .first{
+            padding: 4px;
+            margin: 60px 60px;
+            background-color: whitesmoke;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      textarea,select{
+        padding: 10px;
+        margin: 2px solid lightgrey;
+        width: 100%;
+        font-size: 15px;
+        border: 1px solid lightgray;
+        border-radius: 9px;
+      }
+      h1{
+        text-align: center;
+        
+      }
+     button
+      {
+        padding: 8px;
+        margin: none;
+        font-size: 20px;
+        width: 100%;
+        background-color: rgba(87, 172, 160, 0.404);
+        
+        color: black;
+
+      }
+      button:hover{
+       background-color: rgb(84, 170, 141); 
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+        fillart.in 
+    
+      <img src="/project pics/fillimg.png" alt="" class="logo">
+    </header>
+       <div class="first">
+    <h1>Delivery Address and Payment Info</h1>
+    <hr>
+    <h2>Personal Information</h2>
+  
+    
+    
+    <form action="last.html" method="post">
+      
+        <p>Name: <input type="text" name="name" required placeholder="Enter your name"></p>
+      <p>
+          Male <input type="radio" name="Gender" id="Male" required> Female <input type="radio" name="Gender" id="Female" required>
+      </p>
+      <p>Address: <textarea style="text-decoration: Address;" name="" id="" cols="59" rows="5" placeholder="Enter your address" required></textarea></p>
+      <p>Mobile Number: <input type="number" name="mobile" required placeholder="Enter Your Mobile Number" id=""></p>
+      <p>Email: <input type="email" name="email" id="email" required placeholder="Enter email"></p>
+      <p>Pincode: <input type="number" name="pincode" id="pincode" required placeholder="Enter pincode"></p>
+      <hr>
+      <h2>Payment Information</h2>
+      <p>Card Type:
+      <select name="Card Type" id="Card type" required>
+        <option value="">--Please Select Card--</option>
+        
+        <option value="Rupay ">Rupay </option>
+        <option value="Master Card">Master Card</option>
+        <option value="Visa ">Visa </option>
+      </select>
+      </p>
+      <P>Card Number: <input type="number" name="Card Number" id="Card Number" required placeholder="111-222-333-444"></P>
+      <p>Expiration Date: <input type="date" name="Exp-date" id="Exp-date" required></p>
+      <p>CVV: <input type="password" name="cvv" id="cvv" placeholder="1234"></p>
+      <a href="last.html">  <button type="button" class="last"> Pay Now</button></a>
+      
+     
+    </form>
+  </div>
+    
+</body>
+</html>

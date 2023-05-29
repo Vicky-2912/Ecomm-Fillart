@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=’https://fonts.googleapis.com/css?family=pacifico’ rel=’stylesheet’/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+    <title>cart</title>
+    <style>
+            
+    body{
+      font-family: 'Courier New', Courier, monospace;
+    }
+    header{
+            text-align:center;
+            font-size: 60px;
+          
+            overflow: hidden;
+            background-color: white;
+            border-bottom: 2px solid black;
+            border-radius: 30%;
+            border-top-right-radius: 0px;
+            
+         }
+         .logo{
+            float: right;
+            height: 70px;
+            padding: 0px 20px 20px 0px;
+            border-radius: 70%;}
+            nav{
+                overflow: hidden;
+                font-size: 20px;
+                background-color:rgb(240, 211, 211);
+                margin: 0px;
+                height: 56px;
+                
+              
+             }
+             nav a{
+                float: left;
+                padding: 15px 20px;
+                
+                text-decoration: none;
+                color: rgb(44, 109, 31);
+             }
+            .cart{
+                float: right;
+                color: black;
+                background-color: rgb(240, 211, 211);
+                border-radius: 8px ;
+                margin: 2px 10px;
+                padding: 13px;
+                
+            }
+             nav a:hover{
+               border: 1px solid rgb(119, 231, 105);
+             }
+             nav a:visited{
+                color: chocolate;
+             }
+          
+             .container{
+                margin: 30px 200px;
+                padding: 20px 40px;
+
+             }
+        img{
+            float: left;
+            margin: 10px 10px;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            padding: 15px;
+            width: 160px;
+            height: 180px;
+        }
+        .info_1{
+            
+            padding: 10px 15px;
+            line-height: 30px;
+            word-spacing: 10px;
+            font-weight: 300;
+            margin: 10px;
+            font-size: 20px;
+        }
+        .box{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            border: 1px solid lightgray;
+            
+        }
+        .buynow{
+            margin: 20px 50px;
+            text-align: center;
+            font-size: 40px;
+            
+        }
+        input[type="button"]{
+        margin: 20px 30px;
+        padding: 5px 10px;
+        font-size: 15px;
+        background-color: rgb(209, 97, 97);
+        border-radius: 5px;
+        width: 500px;
+        height: 40px;
+        border: 2px solid greenyellow;
+        }
+        input[type="button"]:hover{
+           
+            opacity: 0.8;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        fillart.in 
+ <img src="/project pics/fillimg.png" alt="" class="logo">
+    </header>
+    <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+            <a href="Home.html">Home</a>
+            <a href="Login.html">Login</a>
+            <a href="Signup.html">Sign Up</a>
+            <a href="Cart.html" class="cart"><span class="bi bi-cart"></span></a>
+        
+    </div>
+    <i class="fa fa-bars"onclick="showMenu()"></i>
+</nav>
+   
+    <center>
+    <div class="container">
+        <div class="box">
+            <img src="/Project pics/stat_one.jpg" alt="">
+            <div class="info_1">
+                <table>
+                    <tr>
+                        <td>Type</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Stone</td>
+                        <td>Crystal</td>
+                    </tr><tr>
+                        <td>Dimensions</td>
+                        <td></td>
+                    </tr><tr>
+                        <td>Work</td>
+                        <td></td>
+                    </tr><tr>
+                        <td>Price</td>
+                        <td></td>
+                    </tr><tr>
+                        
+                        <td colspan="2"> Deliver in 7 Days</td>
+                    </tr>
+                   </table>
+             </div>
+
+            </div>
+          
+            <div class="buy">
+              <a href="Userinfo.html">  <input type="button" value="Buy Now"></a>
+            </div>
+          
+    </div>  
+</center>  
+<script>
+
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+     function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+
+</script>    
+</body>
+</html>

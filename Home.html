@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=’https://fonts.googleapis.com/css?family=pacifico’ rel=’stylesheet’/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+    <title>Project Fillart</title>
+    <style>
+        *{
+            
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body{
+            margin: 0px;
+           
+        }
+       
+        body{
+      font-family: 'Courier New', Courier, monospace;
+    }
+    header{
+            text-align:center;
+            font-size: 60px;
+          
+            overflow: hidden;
+            background-color: white;
+            border-bottom: 2px solid black;
+            border-radius: 30%;
+            border-top-right-radius: 0px;
+            
+         }
+         .logo{
+            float: right;
+            height: 70px;
+            padding: 0px 20px 20px 0px;
+            border-radius: 70%;}
+             
+             nav{
+                overflow: hidden;
+                font-size: 20px;
+                background-color:rgb(240, 211, 211);
+                margin: 0px;
+                height: 56px;
+                
+              
+             }
+             nav a{
+                float: left;
+                padding: 15px 20px;
+                
+                text-decoration: none;
+                color: rgb(44, 109, 31);
+             }
+            .cart{
+                float: right;
+                color: black;
+                background-color: rgb(240, 211, 211);
+                border-radius: 8px ;
+                margin: 2px 10px;
+                padding: 13px;
+                color: rgb(44, 109, 31);
+                
+            }
+             nav a:hover{
+               border: 1px solid rgb(119, 231, 105);
+             }
+             nav a:visited{
+                color: chocolate;
+             }
+             .box{
+                float: left;
+                overflow: hidden;
+                text-decoration: none;
+                text-align: center;
+                margin: 0px;
+                background-color: whitesmoke;
+                color: rgb(54, 9, 1);
+             }
+             a img{
+                height: 110px;
+                width: 160px;
+                padding: 10px 25px;
+                margin-right: 20px;
+                border-radius: 20px;
+               
+             }
+             a img:hover{
+                border: 1px solid white;
+             }
+             .box_1{
+                float: left;
+                background-color: whitesmoke;
+             }
+             .see_more{
+                float: right;
+                text-align: right center;
+                margin: 10px;
+                padding: 10px 10px;
+                text-decoration: none;
+                color: blue;
+                border-radius: 30%;
+                padding-left: 75px;
+                
+               }
+               .see_more:hover{
+               color: darkgreen;
+               }
+           .head{
+            text-decoration: none;
+            
+           }
+           .lowpad{
+            padding-left: 10px;
+           }
+         
+       
+    </style>
+</head>
+<body>
+    <header>
+        fillart.in 
+    
+      <img src="/project pics/fillimg.png" alt="" class="logo" id="navlink">
+      <nav>
+        <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <a href="Home.html">Home</a>
+                <a href="Login.html">Login</a>
+                <a href="Signup.html">Sign Up</a>
+                <a href="Cart.html" class="cart"><span class="bi bi-cart"></span></a>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    </header>
+   
+   
+   
+    <div class="box"> <h2>Our Products</h2>
+        <hr>
+       <div class="box_1">
+        <a href="Murties.html" class="head"> <h3>Murties</h3></a> 
+      <a href=""> <img  src="/Project pics/murti_one.jpg" alt=""></a> 
+      <a href=""> <img src="/Project pics/murti_two.jpg" alt=""></a> 
+      <a href="">  <img src="/Project pics/murti_five.jpg" alt=""></a> 
+      <a href=""> <img src="/Project pics/murti_six.jpg" alt=""></a> 
+      <a href=""> <img src="/Project pics/murti_three.jpg" alt="" class="lowpad"></a> 
+      <a href="Murties.html" class="see_more"><br> See >> <br> More</a>
+      <hr>
+                        </div>
+                         
+                        <div class="box_1">
+                            <a href="Statues.html" class="head">  <h3>Statues</h3></a> 
+                            <a href=""> <img src="/Project pics/stat_one.jpg" alt=""></a> 
+                            <a href=""> <img src="/Project pics/stat_two.jpg" alt=""></a> 
+                            <a href="">  <img src="/Project pics/stat_three.jpg" alt=""></a> 
+                            <a href=""> <img src="/Project pics/stat_four.jpg" alt=""></a> 
+                            <a href=""> <img src="/Project pics/stat_five.jpg" alt="" class="lowpad"></a> 
+                            <a href="Statues.html" class="see_more"><br> See >> <br> More</a>
+                            <hr>
+                           
+                                   </div> 
+                                   <div class="box_1">
+                                    <a href="Decorative_items.html" class="head"><h3>Decorative Items</h3></a> 
+                                    <a href=""> <img src="/Project pics/decor_one.jpg" alt=""></a> 
+                                    <a href=""> <img src="/Project pics/decor_two.jpg" alt=""></a> 
+                                    <a href="">  <img src="/Project pics/decor_three.jpg" alt=""></a> 
+                                    <a href=""> <img src="/Project pics/decor_four.jpg" alt=""></a> 
+                                    <a href=""> <img src="/Project pics/murti_three.jpg" alt="" class="lowpad"></a> 
+                                    <a href="Decorative_items.html" class="see_more"><br> See >> <br> More</a>
+                                    <hr>
+                                   
+                                           </div> 
+                                           <div class="box_1">
+                                            <a href="Gardening_items.html" class="head"> <h3>Gardening Items</h3></a> 
+                                            <a href=""> <img src="/Project pics/gard_one.jpg" alt=""></a> 
+                                            <a href=""> <img src="/Project pics/gard_two.jpg" alt=""></a> 
+                                            <a href="">  <img src="/Project pics/gard_three.jpg" alt=""></a> 
+                                            <a href=""> <img src="/Project pics/gard_four.jpg" alt=""></a> 
+                                            <a href=""> <img src="/Project pics/gard_five.jpg" alt="" class="lowpad"></a> 
+                                            <a href="Gardening_items.html" class="see_more"><br> See >> <br> More</a>
+                                            <hr>
+                                            
+                                                   </div> 
+                                                   <div class="box_1">
+                                                   <a href="Bathroom_items.html" class="head"> <h3>Bathroom Items</h3> </a>
+                                                    <a href=""> <img src="/Project pics/bath_one.jpg" alt=""></a> 
+                                                    <a href=""> <img src="/Project pics/bath_two.jpg" alt=""></a> 
+                                                    <a href="">  <img src="/Project pics/bath_three.jpg" alt=""></a> 
+                                                    <a href=""> <img src="/Project pics/bath_four.jpg" alt=""></a> 
+                                                    <a href=""> <img src="/Project pics/bath_five.jpg" alt="" class="lowpad"></a>
+                                                    <a href="Bathroom_items.html" class="see_more"><br> See >> <br> More</a> 
+                                                    <hr>
+                                                    
+                                                           </div>
+                                                         
+          </div>
+          <script>
+
+            var navLink = document.getElementById("navLink");
+            function showMenu(){
+                navLink.style.right = "0";
+            }
+             function hideMenu(){
+                navLink.style.right = "-200px";
+            }
+    
+       </script>
+</body>
+</html>
